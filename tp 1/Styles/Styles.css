@@ -1,0 +1,132 @@
+/* Stylo googlefonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
+/*  font-family: "GFS Didot", serif*/
+
+/* paleta de colores */
+:root {
+    --color-princpal: #0D0C0C;
+    --color-letras: #F9C15B;
+    --color-letrasw: #ffffff;
+}
+
+/* valor inicial  */
+body {
+    background-color: var(--color-princpal);
+    font-family: "GFS Didot", sans-serif;
+    color: var(--color-letras);
+
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-letras);
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+/*header */
+
+
+
+.Logo img {
+
+    height: 500px;
+    width: 1100px;
+
+}
+
+/* navbar*/
+
+.navbar li {
+    font-size: 2rem;
+    list-style: none;
+
+}
+
+/* main */
+
+
+.inicio h1 {
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+
+/*imagenes modificadores futura card , posiblemnte con un carrusel para editar
+.imagenes {
+    border: 4px solid #ffffff;
+    
+}
+
+*/
+.imagenes img {
+    width: 500px;
+    height: 500px;
+}
+
+.imagenes p {
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Contactos*/
+
+
+
+.ImagenContacto img {
+    width: 90px;
+
+
+}
+
+/*footer */
+
+footer a {
+    text-decoration: none;
+
+}
+
+footer p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: underline;
+    color: var(--color-letrasw);
+}
+
+footer article {
+    align-items: center;
+}
+
+footer article img {
+    height: 200px;
+    width: 500px;
+
+
+}
+
+.footernav li {
+
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    list-style: none;
+
+}
+
+footer nav ul img {
+    width: 80px;
+    height: 80px;
+
+}

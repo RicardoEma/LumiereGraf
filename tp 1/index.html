@@ -4,6 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- css-->
+    <link rel="stylesheet" href="Styles/Styles.css">
     <title>Lumiere - Arte Grafico</title>
 </head>
 
@@ -11,17 +18,20 @@
 
 
     <header>
+        <section class="Logo">
 
-        <a href="#">
-            <img src="./img/LogoLumier.png" alt="">
-        </a>
+            <a href="#">
+                <img src="./assets/img/LogoLumier.png" alt="">
+            </a>
+        </section>
 
 
         <nav>
-            <ul>
+            <ul class="navbar">
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="./pages/Sobremi.html">Sobre mí</a></li>
+                <li><a href="./pages/Sobremi.html">Sobre Nosotros</a></li>
                 <li><a href="./pages/Pryectos.html">Proyectos</a></li>
+                <li><a href="./pages/Resina.html">Proyectos con Resina Epoxica</a></li>
                 <li><a href="./pages/contactos.html">Contacto</a></li>
             </ul>
         </nav>
@@ -29,15 +39,16 @@
 
 
     <main>
-        <section>
+        <section class="inicio">
             <h1>Bienvenido a Lumiere</h1>
-            <p>Somos lumiere especialistas en Cuadros de resina epoxica</p>
+            <p>Somo lumier Especialistas en hacer tus recuerdos mas duraderos </p>
         </section>
 
 
-        <section>
-            <h2>Somo una grafica</h2>
-            <p>Nos enfocamos en crear experiencias accesibles, funcionales y con una semántica web optimizada.</p>
+        <section class="somosgrafica">
+
+            <h2>Somos una grafica</h2>
+            <p>Nos enfocamos en crear recuerdos para toda la vida ... </p>
         </section>
 
         <section>
@@ -50,31 +61,52 @@
         </section>
 
 
+        <h2>Alguno de nuestros trabajos </h2>
+
         <section>
-            <h2>Alguno de nuestros trabajos </h2>
-            <figure>
-                <img src="/img/707561982_122113998285281104_8210090190388151951_n.jpg" alt="Agenda Stich Azul">
-                <figcaption>Agenda creada a pedido Stich</figcaption>
-            </figure>
-            <figure>
-                <img src="./img/774746173_122121427293281104_8911085460422067446_n.jpg"
-                    alt="Anotador de mafalta personalizado">
-                <figcaption>Anotador Personalizado </figcaption>
-            </figure>
-            <figure>
-                <img src="./img/795014521_122123973519281104_481314166738665786_n.jpg"
-                    alt="imagen de cuadernos anotadores ">
-                <figcaption>Algunos de nuestros cuadernos </figcaption>
-            </figure>
+            <article class="imagenes">
+                <h2>Nuestras Agendas</h3>
+                    <figure>
+
+                        <a href="./pages/Pryectos.html"> <img
+                                src="./assets/img/707561982_122113998285281104_8210090190388151951_n.jpg"
+                                alt="Agenda Stich Azul">
+                            <figcaption>Agenda creada a pedido Stich</figcaption>
+                        </a>
+                    </figure>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero autem numquam quisquam
+                        aperiam ducimus cum.</p>
+            </article>
+            <article class="imagenes">
+                <h2>Nuestros anotadores</h3>
+                    <figure>
+                        <a href="./pages/Pryectos.html">
+
+                            <img src="./assets/img/774746173_122121427293281104_8911085460422067446_n.jpg"
+                                alt="Anotador de mafalta personalizado">
+                            <figcaption>Anotador Personalizado </figcaption>
+                        </a>
+                    </figure>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero autem numquam quisquam
+                        aperiam ducimus cum.</p>
+            </article>
+
         </section>
     </main>
-
     <footer>
-        <p>®2026 LumiereGraf. derechos reservados.</p>
+        <article>
+            <a href="#">
+                <img src="./assets/img/Logofooter.jpg" alt="logo footer">
+            </a>
+            <p>®2026 LumiereGraf. derechos reservados.</p>
+        </article>
         <nav>
-            <ul>
-                <li><a href="https://www.instagram.com/lumieregraf/" target="_blank">Instagram</a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=61588433126985" target="_blank">facebook</a></li>
+            <ul class="footernav">
+                <li><a href="https://www.instagram.com/lumieregraf/" target="_blank"> <img src="./assets/img/ig.png"
+                            alt="Logo Instagram"> Instagram</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61588433126985" target="_blank">
+                        <img src="./assets/img/facebook.png" alt="">
+                        facebook</a></li>
             </ul>
         </nav>
     </footer>
