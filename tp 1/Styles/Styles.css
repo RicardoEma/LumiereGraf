@@ -11,11 +11,19 @@
     --color-letrasw: #ffffff;
 }
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 /* valor inicial  */
 body {
     background-color: var(--color-princpal);
     font-family: "GFS Didot", sans-serif;
     color: var(--color-letras);
+
+
 
 
 }
@@ -40,8 +48,10 @@ p {
 
 .Logo img {
 
-    height: 500px;
-    width: 1100px;
+    height: 100%;
+    max-height: 100px;
+    width: auto;
+    object-fit: contain;
 
 }
 
@@ -75,6 +85,7 @@ p {
 .imagenes img {
     width: 500px;
     height: 500px;
+
 }
 
 .imagenes p {
@@ -82,12 +93,21 @@ p {
     text-align: center;
 }
 
+.somosgrafica p {
+    font-size: 1.5rem;
+}
+
+.somosgrafica ul li {
+    font-size: 1.5rem;
+}
+
 /*Contactos*/
 
 
 
 .ImagenContacto img {
-    width: 90px;
+    width: 50px;
+    height: 50px;
 
 
 }
@@ -126,7 +146,125 @@ footer article img {
 }
 
 footer nav ul img {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: auto;
 
+}
+
+/* tp4*/
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-right: 5rem;
+    padding-top: 3rem;
+    justify-content: space-between;
+    height: 90px;
+    padding: 0 20px;
+    margin-bottom: 5rem;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar li {
+
+    display: flex;
+    height: 90px;
+    padding: 0 20px;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2;
+    margin-top: 3rem;
+}
+
+.footernav {
+    flex-direction: row;
+    display: flex;
+    gap: 2;
+    align-items: center;
+}
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    align-items: center;
+
+}
+
+.inicio p {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.somosgrafica {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+}
+
+.somosgrafica p {
+    padding: 0 3rem;
+}
+
+.imagenes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.footernav a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.indexul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.somosgrafica p {
+    display: flex;
+
+    align-items: center;
+}
+
+.contactos {
+    display: flex;
+    justify-content: center;
+}
+
+.ImagenContacto a {
+    display: flex;
+    align-items: center;
+}
+
+.inicio img {
+    height: 30rem;
+    width: 35rem;
 }
