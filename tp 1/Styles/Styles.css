@@ -191,14 +191,14 @@ footer {
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 2;
+    gap: 2px;
     margin-top: 3rem;
 }
 
 .footernav {
     flex-direction: row;
     display: flex;
-    gap: 2;
+    gap: 2px;
     align-items: center;
 }
 
