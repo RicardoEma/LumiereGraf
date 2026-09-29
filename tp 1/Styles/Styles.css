@@ -42,6 +42,11 @@ p {
     font-size: 1.5rem;
 }
 
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
 /*header */
 
 
@@ -85,6 +90,7 @@ p {
 .imagenes img {
     width: 500px;
     height: 500px;
+    padding: 20px;
 
 }
 
@@ -106,8 +112,9 @@ p {
 
 
 .ImagenContacto img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
 
 
 }
@@ -200,6 +207,7 @@ footer {
     display: flex;
     gap: 2px;
     align-items: center;
+    padding: 20px;
 }
 
 .inicio {
@@ -267,4 +275,12 @@ footer {
 .inicio img {
     height: 30rem;
     width: 35rem;
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
