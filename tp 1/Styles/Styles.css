@@ -113,8 +113,8 @@ li {
 
 
 .ImagenContacto img {
-    width: 30%;
-    height: 30%;
+    width: auto;
+    height: auto;
     padding: 2rem;
 
 
@@ -262,6 +262,7 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 
 .ImagenContacto a {
@@ -332,6 +333,14 @@ header nav {
         grid-template-areas:
             "list"
             "logo";
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1.5rem;
     }
 
     .navbar {
