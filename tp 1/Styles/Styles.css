@@ -35,12 +35,12 @@ a {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 15px;
 }
 
 li {
@@ -113,8 +113,8 @@ li {
 
 
 .ImagenContacto img {
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
     padding: 2rem;
 
 
@@ -208,12 +208,14 @@ footer {
     flex-direction: column;
     padding: 1rem;
     align-items: center;
+    justify-content: center;
+    gap: 2rem;
 
 }
 
 .inicio p {
     display: flex;
-    margin-top: 2rem;
+    margin-top: 8px;
 }
 
 .somosgrafica {
@@ -259,6 +261,7 @@ footer {
 .contactos {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .ImagenContacto a {
@@ -315,6 +318,13 @@ header nav {
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
+}
+
+.cardsobrenos {
+    align-items: center;
+    display: flex;
+
+    flex-direction: column;
 }
 
 @media (min-width:1024px) {
