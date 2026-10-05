@@ -22,6 +22,7 @@ body {
     background-color: var(--color-princpal);
     font-family: "GFS Didot", sans-serif;
     color: var(--color-letras);
+    padding: 16px;
 
 
 
@@ -56,14 +57,14 @@ li {
     height: 100%;
     max-height: 100px;
     width: auto;
-    object-fit: contain;
+
 
 }
 
 /* navbar*/
 
 .navbar li {
-    font-size: 2rem;
+    font-size: 1rem;
     list-style: none;
 
 }
@@ -74,7 +75,7 @@ li {
 .inicio h1 {
     text-decoration: underline;
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-align: center;
 
 }
@@ -88,9 +89,9 @@ li {
 
 */
 .imagenes img {
-    width: 500px;
-    height: 500px;
-    padding: 20px;
+    width: 80%;
+    height: 80%;
+    padding: 1rem;
 
 }
 
@@ -100,11 +101,11 @@ li {
 }
 
 .somosgrafica p {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .somosgrafica ul li {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 /*Contactos*/
@@ -112,9 +113,9 @@ li {
 
 
 .ImagenContacto img {
-    width: 100px;
-    height: 100px;
-    padding: 20px;
+    width: 50%;
+    height: 50%;
+    padding: 2rem;
 
 
 }
@@ -127,10 +128,11 @@ footer a {
 }
 
 footer p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     text-decoration: underline;
     color: var(--color-letrasw);
+    text-align: center;
 }
 
 footer article {
@@ -138,8 +140,8 @@ footer article {
 }
 
 footer article img {
-    height: 200px;
-    width: 500px;
+    height: 80%;
+    width: 100%;
 
 
 }
@@ -162,33 +164,24 @@ footer nav ul img {
 
 
 header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding-right: 5rem;
-    padding-top: 3rem;
-    justify-content: space-between;
-    height: 90px;
-    padding: 0 20px;
-    margin-bottom: 5rem;
-
+    padding: 2rem;
 }
 
 .navbar {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 
 }
 
 .navbar li {
 
     display: flex;
-    height: 90px;
+
     padding: 0 20px;
     font-size: 18px;
     white-space: nowrap;
@@ -213,7 +206,7 @@ footer {
 .inicio {
     display: flex;
     flex-direction: column;
-    padding: 5rem;
+    padding: 1rem;
     align-items: center;
 
 }
@@ -247,6 +240,7 @@ footer {
     flex-direction: row;
     align-items: center;
     gap: 0.5rem;
+    font-size: 1rem;
 }
 
 .indexul {
@@ -273,14 +267,115 @@ footer {
 }
 
 .inicio img {
-    height: 30rem;
-    width: 35rem;
+    height: 70%;
+    width: 70%;
 }
 
 
 .nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+header nav {
+    display: grid;
+    grid-template-areas:
+        "logo"
+        "list"
+    ;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px;
+    gap: 1rem;
+
+
+}
+
+.navlogo {
+    grid-area: logo;
+    text-align: center;
+}
+
+.navbarul {
+    grid-area: list;
+    gap: 10px;
+}
+
+.imagenes {
+    text-align: center;
+}
+
+.Logo {
+    text-align: center;
+}
+
+.h1proyecto {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+@media (min-width:1024px) {
+    header nav {
+        grid-template-areas:
+            "list"
+            "logo";
+    }
+
+    .navbar {
+        flex-direction: row;
+    }
+
+    .Nuestroflex {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .imagenes img {
+        width: auto;
+        height: 50rem;
+        padding: 1rem;
+
+
+    }
+
+    .Logo navlogo {
+        height: 300px;
+    }
+
+    .Logo img {
+
+        height: 100%;
+        max-height: 100%;
+        width: auto;
+
+
+    }
+
+    .inicio h1 {
+        font-size: 2rem;
+    }
+
+    .somosgrafica p {
+        font-size: 1.5rem;
+    }
+
+    .somosgrafica ul li {
+        font-size: 1.5rem;
+    }
+
+    footer {
+
+        margin-top: 20rem;
+    }
+
+
+    .proyectogrid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+
+    }
+
 }
