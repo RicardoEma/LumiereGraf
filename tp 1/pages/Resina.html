@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resina - lumiere</title>
+    <!--Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!-- css-->
     <link rel="stylesheet" href="../Styles/Styles.css">
 </head>
@@ -12,48 +15,124 @@
 <body>
 
     <header>
-        <nav class="nav">
-            <figure class="Logo navlogo">
-                <a href="../index.html">
-                    <img src="../assets/img/LogoLumier.png" alt="Logo de lumiere">
-                </a>
-            </figure>
-            <ul class="navbar navbarul">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./Sobremi.html">Sobre Nosotros</a></li>
-                <li><a href="./Pryectos.html">Proyectos</a></li>
-                <li><a href="#">Proyectos con Resina Epoxica</a></li>
-                <li><a href="./contactos.html">Contacto</a></li>
-            </ul>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbarcustom">
+            <div class="container-fluid containernavbar">
+                <a class="navbar-brand" href="../index.html"> <img class="imglogo" src="../assets/img/LogoLumier.png"
+                        alt="Logo de lumiere"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="ulnavbar ">
+                        <li class="nav-item">
+                            <a class="nav-link " href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="./Sobremi.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Pryectos.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Proyectos con Resina Epoxica</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./contactos.html">Contacto</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
         </nav>
+        <!--Navbar-->
 
     </header>
     <main>
-        <section class="inicio">
-            <h1>Nuestros trabajos con Resina</h1>
+
+        <!--Card-s-->
+        <section class="">
+
+            <div class="container resinacard">
+                <div class="row rowacc">
+                    <div class="card col-12 col-md-6 cardedit ">
+                        <img src="../assets/img/lapicerasepo.jpg" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                            <p class="card-text cardp">Dale brillo a tu escritorio con estas lapiceras artesanales de
+                                resina.
+                                Elegí tu color, nombre y dije favorito.</p>
+                        </div>
+                    </div>
+                    <div class="card col-12 col-md-6 cardedit">
+                        <img src=" ../assets/img/cuadro epoxi.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text cardp">Dale un toque de arte a tu hogar con estos cuadros únicos de
+                                resina epóxica. Elige tu diseño, color y acabado favorito.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row rowacc">
+
+                    <div class="card cardedit col-12">
+                        <img src="../assets/img/llaveros epoxi.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text cardp">Some quick example text to build on the card title and make up
+                                the bulk
+                                of
+                                the
+                                card’s content.</p>
+                        </div>
+                    </div>
+                    <div class="card cardedit col-12" ">
+                        <img src=" ../assets/img/mesa.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text cardp">Some quick example text to build on the card title and
+                                make up the bulk
+                                of
+                                the
+                                card’s content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
         </section>
-        <section>
-            <article class="imagenes">
-                <h2>Cuadros</h2>
-                <img src="../assets/img/cuadro epoxi.jpg" alt="imagen de cuadro echos con resina">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam rem corporis modi! Minima
-                    ratione
-                    ex quasi molestias, repudiandae delectus vel.</p>
-            </article>
-            <article class="imagenes">
-                <h2>Llaveros</h2>
-                <img src="../assets/img/llaveros epoxi.jpg" alt="imagen de llaveros de resina">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, nihil accusamus! Magni ea natus
-                    sunt
-                    enim, et repudiandae ab adipisci?</p>
-            </article>
-            <article class="imagenes">
-                <h2>Lapiceras</h2>
-                <img src="../assets/img/lapicerasepo.jpg" alt="imagen de lapiceras de resina">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quo ipsa aliquam harum mollitia
-                    cumque, tempora iste soluta libero quasi.</p>
-            </article>
-        </section>
+
+
+        <!-- <section class="inicio">
+                            <h1>Nuestros trabajos con Resina</h1>
+                        </section>
+                        <section>
+                            <article class="imagenes">
+                                <h2>Cuadros</h2>
+                                <img src="../assets/img/cuadro epoxi.jpg" alt="imagen de cuadro echos con resina">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam rem corporis modi!
+                                    Minima
+                                    ratione
+                                    ex quasi molestias, repudiandae delectus vel.</p>
+                            </article>
+                            <article class="imagenes">
+                                <h2>Llaveros</h2>
+                                <img src="../assets/img/llaveros epoxi.jpg" alt="imagen de llaveros de resina">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, nihil accusamus! Magni
+                                    ea natus
+                                    sunt
+                                    enim, et repudiandae ab adipisci?</p>
+                            </article>
+                            <article class="imagenes">
+                                <h2>Lapiceras</h2>
+                                <img src="../assets/img/lapicerasepo.jpg" alt="imagen de lapiceras de resina">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quo ipsa aliquam
+                                    harum mollitia
+                                    cumque, tempora iste soluta libero quasi.</p>
+                            </article>-->
+
     </main>
     <footer>
         <article>
@@ -72,6 +151,10 @@
             </ul>
         </nav>
     </footer>
+    <!--Boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

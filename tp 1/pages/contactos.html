@@ -7,29 +7,50 @@
     <title>Contactos - Lumiere</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
     <!-- css-->
+
     <link rel="stylesheet" href="../Styles/Styles.css">
 </head>
 
 <body>
 
     <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbarcustom">
+            <div class="container-fluid containernavbar">
+                <a class="navbar-brand" href="../index.html"> <img class="imglogo" src="../assets/img/LogoLumier.png"
+                        alt="Logo de lumiere"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="ulnavbar ">
+                        <li class="nav-item">
+                            <a class="nav-link " href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="./Sobremi.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Pryectos.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Resina.html">Proyectos con Resina Epoxica</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                        </li>
 
-        <nav class="nav">
-            <figure class="Logo navlogo">
-                <a href="../index.html">
-                    <img src="../assets/img/LogoLumier.png" alt="Logo de lumiere">
-                </a>
-            </figure>
-            <ul class="navbar navbarul">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./Sobremi.html">Sobre Nosotros</a></li>
-                <li><a href="./Pryectos.html">Proyectos</a></li>
-                <li><a href="./Resina.html">Proyectos con Resina Epoxica</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
+                    </ul>
+                </div>
+            </div>
         </nav>
-
+        <!--Navbar-->
     </header>
 
     </header>
@@ -75,6 +96,10 @@
             </ul>
         </nav>
     </footer>
+    <!--Boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 
 </body>
 

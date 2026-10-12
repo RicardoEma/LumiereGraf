@@ -177,7 +177,7 @@ header {
     align-items: center;
     justify-content: center;
     padding: 20px;
-
+    color: var(--color-letras);
 }
 
 .navbar li {
@@ -278,15 +278,16 @@ footer {
 }
 
 
-.nav {
+/* .nav {
     align-items: center;
     flex-direction: row;
 
     align-items: center;
-}
+} */
 
+/* 
 header nav {
-    display: grid;
+    /* display: grid;
     grid-template-areas:
         "logo"
         "list"
@@ -298,6 +299,7 @@ header nav {
 
 
 }
+ */
 
 .navlogo {
     grid-area: logo;
@@ -326,8 +328,84 @@ header nav {
 .cardsobrenos {
     align-items: center;
     display: flex;
-
+    max-width: 600px;
     flex-direction: column;
+}
+
+.h1nosotros {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+/*tp bst*/
+.imglogo {
+    max-width: 300px;
+}
+
+.navbarcustom {
+    color: var(--color-letras);
+}
+
+.ulnavbar {
+    margin-top: 1rem;
+
+}
+
+.carousel-custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 500px;
+}
+
+
+.cardedit {
+    width: 14rem;
+    height: 20remrem;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--color-princpal);
+    border: var(--color-letras) solid 3px;
+    max-width: 14rem;
+
+
+
+}
+
+.cardp {
+    color: var(--color-letras);
+    text-transform: uppercase;
+    flex-wrap: nowrap;
+    display: flex;
+
+}
+
+.rowacc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0px;
+}
+
+.cardedit img {
+    width: 13rem;
+    height: 13rem;
+    padding: 3px;
+    border-radius: 2rem;
+}
+
+.card-img-top {
+    width: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 @media (min-width:1024px) {
@@ -389,7 +467,7 @@ header nav {
 
     footer {
 
-        margin-top: 20rem;
+        margin-top: 3rem;
     }
 
 
@@ -398,5 +476,25 @@ header nav {
         grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
 
     }
+
+    /**/
+    .containernavbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ulnavbar {
+        display: flex;
+        margin-top: 2rem;
+    }
+
+    .imglogo {
+        max-width: 500px;
+    }
+
+    .cardedit {
+        height: 50rem;
+    }
+
 
 }
