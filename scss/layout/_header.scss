@@ -1,7 +1,60 @@
-.inicio h1 {
-    text-decoration: underline;
-    font-weight: 900;
-    font-size: 1.5rem;
-    text-align: center;
+header {
+    padding: 2rem;
+}
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+
+
+    p {
+        display: flex;
+        margin-top: 8px;
+    }
+
+    h1 {
+        text-decoration: underline;
+        font-weight: 900;
+        font-size: 1.5rem;
+        text-align: center;
+
+        img {
+            height: 70%;
+            width: 70%;
+        }
+
+    }
+}
+
+.somosgrafica {
+
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+
+    p {
+        font-size: 1rem;
+        padding: 0 3rem;
+
+        ul li {
+            font-size: 1rem;
+        }
+    }
+}
+
+
+
+/*contacto*/
+.ImagenContacto img {
+    width: 7rem;
+    height: 7rem;
+    padding: 2rem;
+
 
 }
