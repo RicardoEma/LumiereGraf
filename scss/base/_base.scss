@@ -1,0 +1,34 @@
+@use "../utilities/variables";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: variables.$color-princpal;
+    font-family: "GFS Didot", sans-serif;
+    color: variables.$color-letras;
+    padding: 16px;
+
+}
+
+a {
+    text-decoration: none;
+    color: variables.$color-letras;
+}
+
+h2 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
