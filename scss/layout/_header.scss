@@ -1,13 +1,15 @@
+@use "../utilities/mixins.scss";
+
 header {
     padding: 2rem;
 }
 
 .inicio {
-    display: flex;
+    @include mixins.flexcenter;
     flex-direction: column;
     padding: 1rem;
     align-items: center;
-    justify-content: center;
+
     gap: 2rem;
 
 
@@ -77,24 +79,21 @@ header {
 }
 
 .contactos {
-    display: flex;
-    justify-content: center;
+    @include mixins.flexcenter;
     flex-direction: column;
     align-items: center;
 }
 
 /*proyecto*/
 .h1proyecto {
-    display: flex;
-    justify-content: center;
+    @include mixins.flexcenter;
     margin-bottom: 2rem;
 }
 
 /*sobre nosotros*/
 
 .h1nosotros {
-    display: flex;
-    justify-content: center;
+    @include mixins.flexcenter;
     margin-bottom: 5rem;
 }
 

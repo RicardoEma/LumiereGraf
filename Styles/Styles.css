@@ -38,10 +38,10 @@ header {
 
 .inicio {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   padding: 1rem;
   align-items: center;
-  justify-content: center;
   gap: 2rem;
 }
 .inicio p {
@@ -133,7 +133,7 @@ header {
 
 footer {
   display: flex;
-  align-items: center;
+  justify-content: center;
   flex-direction: column;
   gap: 2px;
   margin-top: 3rem;
@@ -184,11 +184,10 @@ footer nav ul img {
 }
 
 .navbar {
-  display: flex;
-  justify-content: center;
   gap: 1rem;
   flex-direction: column;
   align-items: center;
+  display: flex;
   justify-content: center;
   padding: 20px;
   color: #F9C15B;
