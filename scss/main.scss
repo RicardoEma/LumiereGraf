@@ -3,6 +3,10 @@
 @use "./utilities/variables";
 @use "./layout/header";
 @use "./layout/footer";
+@use "./layout/nav";
+@use "./components/cards";
+@use "./components/media";
+@use "./components/carrousel";
 /*  font-family: "GFS Didot", serif*/
 
 
@@ -24,234 +28,32 @@
     align-items: center;
     flex-direction: column;
     gap: 1rem;
-
-}
-
-
-.indexul {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    margin-top: 3rem;
-}
-
-.somosgrafica p {
-    display: flex;
-    align-items: center;
-}
-
-.contactos {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.ImagenContacto a {
-    display: flex;
-    align-items: center;
-}
-
-
-
-
-
-
-.navlogo {
-    grid-area: logo;
     text-align: center;
+
 }
 
-.navbarul {
-    grid-area: list;
-    gap: 10px;
-}
 
-.imagenes {
-    text-align: center;
-}
 
-.Logo {
-    text-align: center;
-}
 
-.h1proyecto {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2rem;
-}
 
-.cardsobrenos {
-    align-items: center;
-    display: flex;
-    max-width: 600px;
-    flex-direction: column;
-}
 
-.h1nosotros {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5rem;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*tp bst*/
-.imglogo {
-    max-width: 300px;
-}
-
-.navbarcustom {
-    color: var(--color-letras);
-}
-
-.ulnavbar {
-    margin-top: 1rem;
-
-}
-
-.carousel-custom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: auto;
-    height: 500px;
-}
-
-
-.cardedit {
-    width: 14rem;
-    height: 20rem;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    background: var(--color-princpal);
-    border: var(--color-letras) solid 3px;
-    max-width: 14rem;
-
-
-
-}
-
-.cardp {
-    color: var(--color-letras);
-    text-transform: uppercase;
-    flex-wrap: nowrap;
-    display: flex;
-
-}
-
-.rowacc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    margin: 1rem 0px;
-}
-
-.cardedit img {
-    width: 13rem;
-    height: 13rem;
-    padding: 3px;
-    border-radius: 2rem;
-}
-
-.card-img-top {
-    width: 18rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-@media (min-width:1024px) {
-    header nav {
-        grid-template-areas:
-            "list"
-            "logo";
-    }
-
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    p {
-        font-size: 1.5rem;
-    }
-
-    .navbar {
-        flex-direction: row;
-    }
-
-    .Nuestroflex {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .imagenes img {
-        width: auto;
-        height: 50rem;
-        padding: 1rem;
-
-
-    }
-
-    .Logo navlogo {
-        height: 300px;
-    }
-
-    .Logo img {
-
-        height: 100%;
-        max-height: 100%;
-        width: auto;
-
-
-    }
-
-    .inicio h1 {
-        font-size: 2rem;
-    }
-
-    .somosgrafica p {
-        font-size: 1.5rem;
-    }
-
-    .somosgrafica ul li {
-        font-size: 1.5rem;
-        background: #000;
-    }
-
-    footer {
-
-        margin-top: 3rem;
-    }
-
-
-    .proyectogrid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
-
-    }
-
-    /**/
-    .containernavbar {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .ulnavbar {
-        display: flex;
-        margin-top: 2rem;
-    }
-
-    .imglogo {
-        max-width: 500px;
-    }
-
-    .cardedit {
-        height: 50rem;
-    }
-
-
-}

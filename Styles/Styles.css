@@ -68,16 +68,67 @@ header {
 .somosgrafica p {
   font-size: 1rem;
   padding: 0 3rem;
+  display: flex;
+  align-items: center;
 }
 .somosgrafica p ul li {
   font-size: 1rem;
 }
 
+.indexul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
 /*contacto*/
+.ImagenContacto a {
+  display: flex;
+  align-items: center;
+}
 .ImagenContacto img {
   width: 7rem;
   height: 7rem;
   padding: 2rem;
+}
+
+.contactos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*proyecto*/
+.h1proyecto {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+/*sobre nosotros*/
+.h1nosotros {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.imagenes {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+.imagenes p {
+  text-decoration: none;
+  text-align: center;
+}
+.imagenes img {
+  width: 80%;
+  height: 80%;
+  padding: 1rem;
 }
 
 footer {
@@ -96,7 +147,7 @@ footer p {
   font-size: 1rem;
   font-weight: 600;
   text-decoration: underline;
-  color: var(--color-letrasw);
+  color: #ffffff;
   text-align: center;
 }
 footer article {
@@ -132,105 +183,40 @@ footer nav ul img {
   padding: 20px;
 }
 
-/*  font-family: "GFS Didot", serif*/
-.imagenes img {
-  width: 80%;
-  height: 80%;
-  padding: 1rem;
-}
-
-.imagenes p {
-  text-decoration: none;
-  text-align: center;
-}
-
-.imagenes {
+.navbar {
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  justify-content: center;
   gap: 1rem;
-}
-
-.indexul {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  margin-top: 3rem;
-}
-
-.somosgrafica p {
-  display: flex;
-  align-items: center;
-}
-
-.contactos {
-  display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
-}
-
-.ImagenContacto a {
-  display: flex;
-  align-items: center;
-}
-
-.navlogo {
-  grid-area: logo;
-  text-align: center;
-}
-
-.navbarul {
-  grid-area: list;
-  gap: 10px;
-}
-
-.imagenes {
-  text-align: center;
-}
-
-.Logo {
-  text-align: center;
-}
-
-.h1proyecto {
-  display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
+  padding: 20px;
+  color: #F9C15B;
 }
-
-.cardsobrenos {
-  align-items: center;
+.navbar li {
   display: flex;
-  max-width: 600px;
-  flex-direction: column;
+  padding: 0 20px;
+  font-size: 18px;
+  white-space: nowrap;
 }
 
-.h1nosotros {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 5rem;
-}
-
-/*tp bst*/
 .imglogo {
   max-width: 300px;
 }
 
 .navbarcustom {
-  color: var(--color-letras);
+  color: #F9C15B;
 }
 
 .ulnavbar {
   margin-top: 1rem;
 }
 
-.carousel-custom {
-  display: flex;
+.cardsobrenos {
   align-items: center;
-  justify-content: center;
-  width: auto;
-  height: 500px;
+  display: flex;
+  max-width: 300px;
+  flex-direction: column;
 }
 
 .cardedit {
@@ -241,13 +227,19 @@ footer nav ul img {
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  background: var(--color-princpal);
-  border: var(--color-letras) solid 3px;
+  background: #0D0C0C;
+  border: #F9C15B solid 3px;
   max-width: 14rem;
+}
+.cardedit img {
+  width: 13rem;
+  height: 13rem;
+  padding: 3px;
+  border-radius: 2rem;
 }
 
 .cardp {
-  color: var(--color-letras);
+  color: #F9C15B;
   text-transform: uppercase;
   flex-wrap: nowrap;
   display: flex;
@@ -259,13 +251,6 @@ footer nav ul img {
   align-items: center;
   gap: 1rem;
   margin: 1rem 0px;
-}
-
-.cardedit img {
-  width: 13rem;
-  height: 13rem;
-  padding: 3px;
-  border-radius: 2rem;
 }
 
 .card-img-top {
@@ -296,9 +281,6 @@ footer nav ul img {
     width: auto;
     height: 50rem;
     padding: 1rem;
-  }
-  .Logo navlogo {
-    height: 300px;
   }
   .Logo img {
     height: 100%;
@@ -338,5 +320,26 @@ footer nav ul img {
     height: 50rem;
   }
 }
+/*  font-family: "GFS Didot", serif*/
+.imagenes img {
+  width: 80%;
+  height: 80%;
+  padding: 1rem;
+}
+
+.imagenes p {
+  text-decoration: none;
+  text-align: center;
+}
+
+.imagenes {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+
+/*tp bst*/
 
 /*# sourceMappingURL=Styles.css.map */

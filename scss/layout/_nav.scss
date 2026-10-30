@@ -1,3 +1,5 @@
+@use "../utilities/variables";
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -6,14 +8,28 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    color: var(--color-letras);
+    color: variables.$color-letras;
+
+    li {
+
+        display: flex;
+
+        padding: 0 20px;
+        font-size: 18px;
+        white-space: nowrap;
+    }
 }
 
-.navbar li {
 
-    display: flex;
+.imglogo {
+    max-width: 300px;
+}
 
-    padding: 0 20px;
-    font-size: 18px;
-    white-space: nowrap;
+.navbarcustom {
+    color: variables.$color-letras;
+}
+
+.ulnavbar {
+    margin-top: 1rem;
+
 }

@@ -1,3 +1,5 @@
+@use "../utilities/variables";
+
 footer {
     display: flex;
     align-items: center;
@@ -16,7 +18,7 @@ footer {
         font-size: 1rem;
         font-weight: 600;
         text-decoration: underline;
-        color: var(--color-letrasw);
+        color: variables.$color-letrasw;
         text-align: center;
     }
 

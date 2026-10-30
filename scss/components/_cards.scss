@@ -1,0 +1,55 @@
+@use "../utilities/variables";
+
+.cardsobrenos {
+    align-items: center;
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+}
+
+.cardedit {
+    width: 14rem;
+    height: 20rem;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: variables.$color-princpal;
+    border: variables.$color-letras solid 3px;
+    max-width: 14rem;
+
+    img {
+        width: 13rem;
+        height: 13rem;
+        padding: 3px;
+        border-radius: 2rem;
+    }
+
+}
+
+.cardp {
+    color: variables.$color-letras;
+    text-transform: uppercase;
+    flex-wrap: nowrap;
+    display: flex;
+
+}
+
+.rowacc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0px;
+}
+
+
+
+.card-img-top {
+    width: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

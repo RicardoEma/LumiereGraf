@@ -1,0 +1,94 @@
+@media (min-width:1024px) {
+    header nav {
+        grid-template-areas:
+            "list"
+            "logo";
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    .navbar {
+        flex-direction: row;
+    }
+
+    .Nuestroflex {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .imagenes img {
+        width: auto;
+        height: 50rem;
+        padding: 1rem;
+
+
+    }
+
+
+    .Logo img {
+
+        height: 100%;
+        max-height: 100%;
+        width: auto;
+
+
+    }
+
+    .inicio h1 {
+        font-size: 2rem;
+    }
+
+
+
+    .somosgrafica {
+        p {
+            font-size: 1.5rem;
+        }
+
+        ul li {
+            font-size: 1.5rem;
+            background: #000;
+        }
+
+    }
+
+
+    footer {
+
+        margin-top: 3rem;
+    }
+
+
+    .proyectogrid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+
+    }
+
+    /**/
+    .containernavbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ulnavbar {
+        display: flex;
+        margin-top: 2rem;
+    }
+
+    .imglogo {
+        max-width: 500px;
+    }
+
+    .cardedit {
+        height: 50rem;
+    }
+
+
+}
