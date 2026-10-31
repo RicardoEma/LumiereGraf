@@ -319,26 +319,15 @@ footer nav ul img {
     height: 50rem;
   }
 }
-/*  font-family: "GFS Didot", serif*/
-.imagenes img {
-  width: 80%;
-  height: 80%;
-  padding: 1rem;
-}
-
-.imagenes p {
-  text-decoration: none;
-  text-align: center;
-}
-
-.imagenes {
+.carousel-custom {
   display: flex;
   align-items: center;
-  flex-direction: column;
-  gap: 1rem;
-  text-align: center;
+  justify-content: center;
+  width: auto;
+  height: 500px;
 }
 
+/*  font-family: "GFS Didot", serif*/
 /*tp bst*/
 
 /*# sourceMappingURL=Styles.css.map */
