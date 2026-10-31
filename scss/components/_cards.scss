@@ -1,4 +1,5 @@
 @use "../utilities/variables";
+@use "../utilities/mixins.scss";
 
 .cardsobrenos {
     align-items: center;
@@ -37,8 +38,7 @@
 }
 
 .rowacc {
-    display: flex;
-    justify-content: center;
+    @include mixins.flexcenter;
     align-items: center;
     gap: 1rem;
     margin: 1rem 0px;
