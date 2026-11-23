@@ -2,14 +2,18 @@
 @use "../utilities/mixins.scss";
 
 footer {
-    @include mixins.flexcenter;
+  
     flex-direction: column;
     gap: 2px;
-    margin-top: 3rem;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
 
     a {
         text-decoration: none;
-        @include mixins.flexcenter;
+        align-items: center;
+    display: flex;
+    flex-direction: column;
 
     }
 
@@ -23,6 +27,8 @@ footer {
 
     article {
         align-items: center;
+    display: flex;
+    flex-direction: column;
 
         img {
             height: 40%;
@@ -41,6 +47,11 @@ footer {
 }
 
 .footernav {
+    ul{
+            align-items: center;
+    display: flex;
+    flex-direction: column;
+    }
 
     li {
 
@@ -54,7 +65,7 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 0.5rem;
+        gap: 10px;
         font-size: 1rem;
     }
 }

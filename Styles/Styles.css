@@ -24,7 +24,7 @@ h2 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 li {
@@ -40,9 +40,9 @@ header {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 1rem;
+  padding: 15px;
   align-items: center;
-  gap: 2rem;
+  gap: 30px;
 }
 .inicio p {
   display: flex;
@@ -51,7 +51,7 @@ header {
 .inicio h1 {
   text-decoration: underline;
   font-weight: 900;
-  font-size: 1.5rem;
+  font-size: 20px;
   text-align: center;
 }
 .inicio h1 img {
@@ -62,12 +62,12 @@ header {
 .somosgrafica {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 45px;
   align-items: center;
 }
 .somosgrafica p {
   font-size: 1rem;
-  padding: 0 3rem;
+  padding: 0 45px;
   display: flex;
   align-items: center;
 }
@@ -78,8 +78,8 @@ header {
 .indexul {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  margin-top: 3rem;
+  gap: 30px;
+  margin-top: 45px;
 }
 
 /*contacto*/
@@ -88,9 +88,9 @@ header {
   align-items: center;
 }
 .ImagenContacto img {
-  width: 7rem;
-  height: 7rem;
-  padding: 2rem;
+  width: 70px;
+  height: 70px;
+  padding: 10px;
 }
 
 .contactos {
@@ -104,21 +104,21 @@ header {
 .h1proyecto {
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin-bottom: 45px;
 }
 
 /*sobre nosotros*/
 .h1nosotros {
   display: flex;
   justify-content: center;
-  margin-bottom: 5rem;
+  margin-bottom: 60px;
 }
 
 .imagenes {
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 1rem;
+  gap: 15px;
   text-align: center;
 }
 .imagenes p {
@@ -128,20 +128,21 @@ header {
 .imagenes img {
   width: 80%;
   height: 80%;
-  padding: 1rem;
+  padding: 15px;
 }
 
 footer {
-  display: flex;
-  justify-content: center;
   flex-direction: column;
   gap: 2px;
-  margin-top: 3rem;
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
 }
 footer a {
   text-decoration: none;
+  align-items: center;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 footer p {
   font-size: 1rem;
@@ -152,6 +153,8 @@ footer p {
 }
 footer article {
   align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 footer article img {
   height: 40%;
@@ -162,6 +165,11 @@ footer nav ul img {
   height: auto;
 }
 
+.footernav ul {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 .footernav li {
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -171,7 +179,7 @@ footer nav ul img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 0.5rem;
+  gap: 10px;
   font-size: 1rem;
 }
 
@@ -208,7 +216,7 @@ footer nav ul img {
 }
 
 .ulnavbar {
-  margin-top: 1rem;
+  margin-top: 15px;
 }
 
 .cardsobrenos {
@@ -219,8 +227,8 @@ footer nav ul img {
 }
 
 .cardedit {
-  width: 14rem;
-  height: 20rem;
+  width: 225px;
+  height: 500px;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -228,11 +236,11 @@ footer nav ul img {
   border-radius: 20px;
   background: #0D0C0C;
   border: #F9C15B solid 3px;
-  max-width: 14rem;
+  max-width: 225px;
 }
 .cardedit img {
-  width: 13rem;
-  height: 13rem;
+  width: 210px;
+  height: 210px;
   padding: 3px;
   border-radius: 2rem;
 }
@@ -248,12 +256,12 @@ footer nav ul img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
-  margin: 1rem 0px;
+  gap: 15px;
+  margin: 15px 0px;
 }
 
 .card-img-top {
-  width: 18rem;
+  width: 270px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -278,8 +286,8 @@ footer nav ul img {
   }
   .imagenes img {
     width: auto;
-    height: 50rem;
-    padding: 1rem;
+    height: 750px;
+    padding: 15px;
   }
   .Logo img {
     height: 100%;
@@ -297,7 +305,7 @@ footer nav ul img {
     background: #000;
   }
   footer {
-    margin-top: 3rem;
+    margin-top: 45px;
   }
   .proyectogrid {
     display: grid;
@@ -310,13 +318,13 @@ footer nav ul img {
   }
   .ulnavbar {
     display: flex;
-    margin-top: 2rem;
+    margin-top: 30px;
   }
   .imglogo {
     max-width: 500px;
   }
   .cardedit {
-    height: 50rem;
+    height: 750px;
   }
 }
 .carousel-custom {
@@ -327,4 +335,4 @@ footer nav ul img {
   height: 500px;
 }
 
-/*# sourceMappingURL=Styles.css.map */
+/*# sourceMappingURL=styles.css.map */
