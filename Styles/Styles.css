@@ -38,11 +38,12 @@ header {
 
 .inicio {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  padding: 15px;
+  justify-content: center;
   align-items: center;
   gap: 30px;
+  flex-direction: column;
+  padding: 15px;
 }
 .inicio p {
   display: flex;
@@ -53,6 +54,7 @@ header {
   font-weight: 900;
   font-size: 20px;
   text-align: center;
+  background-image: linear-gradient(45deg, black, rgba(51, 50, 50, 0.7529411765));
 }
 .inicio h1 img {
   height: 70%;
@@ -62,8 +64,10 @@ header {
 .somosgrafica {
   display: flex;
   flex-direction: column;
-  gap: 45px;
+  justify-content: center;
   align-items: center;
+  gap: 45px;
+  display: flex;
 }
 .somosgrafica p {
   font-size: 1rem;
@@ -78,7 +82,10 @@ header {
 .indexul {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 30px;
+  display: flex;
   margin-top: 45px;
 }
 
@@ -95,31 +102,38 @@ header {
 
 .contactos {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  gap: 30px;
 }
 
 /*proyecto*/
 .h1proyecto {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap: 30px;
   margin-bottom: 45px;
 }
 
 /*sobre nosotros*/
 .h1nosotros {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  gap: 10px;
   margin-bottom: 60px;
 }
 
 .imagenes {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 15px;
-  text-align: center;
 }
 .imagenes p {
   text-decoration: none;
@@ -165,6 +179,12 @@ footer nav ul img {
   height: auto;
 }
 
+.footernav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 .footernav ul {
   align-items: center;
   display: flex;
@@ -183,20 +203,12 @@ footer nav ul img {
   font-size: 1rem;
 }
 
-.footernav {
-  flex-direction: row;
-  display: flex;
-  gap: 2px;
-  align-items: center;
-  padding: 20px;
-}
-
 .navbar {
-  gap: 1rem;
-  flex-direction: column;
-  align-items: center;
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  gap: 10px;
   padding: 20px;
   color: #F9C15B;
 }
@@ -254,7 +266,10 @@ footer nav ul img {
 
 .rowacc {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  gap: 10px;
   align-items: center;
   gap: 15px;
   margin: 15px 0px;

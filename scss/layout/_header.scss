@@ -5,15 +5,9 @@ header {
 }
 
 .inicio {
-    @include mixins.flexcenter;
+    @include mixins.flexcenter (column, $gap: 30px);
     flex-direction: column;
     padding: 15px;
-    align-items: center;
-
-    gap: 30px;
-
-
-
     p {
         display: flex;
         margin-top: 8px;
@@ -24,6 +18,7 @@ header {
         font-weight: 900;
         font-size: 20px;
         text-align: center;
+            background-image: linear-gradient(45deg, black, #333232c0);
 
         img {
             height: 70%;
@@ -34,11 +29,8 @@ header {
 }
 
 .somosgrafica {
-
+@include mixins.flexcenter (column, $gap: 45px);
     display: flex;
-    flex-direction: column;
-    gap: 45px;
-    align-items: center;
 
     p {
         font-size: 1rem;
@@ -53,9 +45,8 @@ header {
 }
 
 .indexul {
+    @include mixins.flexcenter (column, $gap: 30px);
     display: flex;
-    flex-direction: column;
-    gap: 30px;
     margin-top: 45px;
 }
 
@@ -79,14 +70,14 @@ header {
 }
 
 .contactos {
-    @include mixins.flexcenter;
-    flex-direction: column;
-    align-items: center;
+    @include mixins.flexcenter(column, $gap: 30px);
+
+
 }
 
 /*proyecto*/
 .h1proyecto {
-    @include mixins.flexcenter;
+    @include mixins.flexcenter(column, $gap: 30px);
     margin-bottom: 45px;
 }
 
@@ -98,11 +89,8 @@ header {
 }
 
 .imagenes {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 15px;
-    text-align: center;
+     @include mixins.flexcenter(column, $gap: 15px);
+
 
     p {
         text-decoration: none;

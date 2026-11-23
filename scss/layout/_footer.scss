@@ -2,7 +2,6 @@
 @use "../utilities/mixins.scss";
 
 footer {
-  
     flex-direction: column;
     gap: 2px;
     margin-top: 45px;
@@ -47,10 +46,16 @@ footer {
 }
 
 .footernav {
+    display: flex;
+    flex-direction:row; 
+    justify-content: center;
+    align-items: center;
+
     ul{
-            align-items: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
+    
     }
 
     li {
@@ -67,6 +72,7 @@ footer {
         align-items: center;
         gap: 10px;
         font-size: 1rem;
+            
     }
 }
 
@@ -78,11 +84,3 @@ footer {
 
 
 
-
-.footernav {
-    flex-direction: row;
-    display: flex;
-    gap: 2px;
-    align-items: center;
-    padding: 20px;
-}

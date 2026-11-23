@@ -2,11 +2,7 @@
 @use "../utilities/mixins.scss";
 
 .navbar {
-
-    gap: 1rem;
-    flex-direction: column;
-    align-items: center;
-    @include mixins.flexcenter;
+@include mixins.flexcenter(row,$gap: 10px);
     padding: 20px;
     color: variables.$color-letras;
 
