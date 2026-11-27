@@ -11,6 +11,12 @@
         padding: 0 20px;
         font-size: 18px;
         white-space: nowrap;
+        &:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1,1);
+    border-radius: 3px;
+  }
     }
 }
 

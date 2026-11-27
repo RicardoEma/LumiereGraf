@@ -32,6 +32,10 @@ li {
   list-style-type: none;
 }
 
+.inicio h1, .h1proyecto, .h1nosotros {
+  background-image: linear-gradient(45deg, black, rgba(51, 50, 50, 0.7529411765));
+}
+
 header {
   padding: 2rem;
 }
@@ -54,7 +58,6 @@ header {
   font-weight: 900;
   font-size: 20px;
   text-align: center;
-  background-image: linear-gradient(45deg, black, rgba(51, 50, 50, 0.7529411765));
 }
 .inicio h1 img {
   height: 70%;
@@ -217,6 +220,12 @@ footer nav ul img {
   padding: 0 20px;
   font-size: 18px;
   white-space: nowrap;
+}
+.navbar li:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1, 1);
+  border-radius: 3px;
 }
 
 .imglogo {
