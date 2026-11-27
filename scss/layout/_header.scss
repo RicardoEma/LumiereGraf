@@ -1,4 +1,5 @@
 @use "../utilities/mixins.scss";
+@use "../utilities/keyframe";
 
 header {
     padding: 2rem;
@@ -67,6 +68,13 @@ header {
 
     }
 }
+.h3contacto{
+    background-color: white;    
+    whidth: 300px;
+    animation: Efecto1 10s infinite;
+    animation-delay: 2.5s;
+    animation-timing-function: ease-in-out;
+}
 
 .contactos {
     @include mixins.flexcenter(column, $gap: 30px);
@@ -90,7 +98,7 @@ header {
 }
 
 .imagenes {
-     @include mixins.flexcenter(column, $gap: 15px);
+    @include mixins.flexcenter(column, $gap: 15px);
 
 
     p {
