@@ -11,6 +11,8 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!--animation -->        
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--Aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- css-->
     <link rel="stylesheet" href="./Styles/Styles.css">
     <title>Lumiere - Arte Grafico</title>
@@ -86,7 +88,7 @@
             <section class="Nuestroflex">
                 <article class="imagenes">
                     <h2>Nuestras Agendas</h2>
-                        <figure>
+                        <figure data-aos="flip-left">
                             <a href="./pages/Pryectos.html"> <img
                                     src="./assets/img/707561982_122113998285281104_8210090190388151951_n.jpg"
                                     alt="Agenda Stich Azul">
@@ -98,7 +100,7 @@
                 </article>
                 <article class="imagenes">
                     <h2>Nuestros anotadores</h2>
-                    <figure>
+                    <figure data-aos="flip-left">
                         <a href="./pages/Pryectos.html">
 
                             <img src="./assets/img/774746173_122121427293281104_8911085460422067446_n.jpg"
@@ -114,7 +116,7 @@
         </section>
     </main>
     <footer>
-        <article>
+        <article  >
             <a href="#">
                 <img src="./assets/img/Logofooter.jpg" alt="logo footer">
             </a>
@@ -132,7 +134,9 @@
     </footer>
 
 
-
+<!--Aos js-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
     <!--Boostrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
